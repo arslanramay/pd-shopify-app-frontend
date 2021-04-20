@@ -1,0 +1,144 @@
+@media only screen and (max-width: 500px) {
+    .landing-header {
+
+        height: 340px;
+        padding: 80px 0px 0px 0px;
+        text-align: center;
+        p {
+            font-size: 12px;
+
+        }
+        h2 {
+            font-size: 22px;
+        }
+
+        span {
+            margin-left: 80px;
+        }
+        .try-button {
+            margin-top: 60px;
+        }
+        img {
+            margin-top: -7px;
+        }
+    }
+
+    .landing-works {
+        padding: 30px 0px 70px 0px;
+        .row {
+            padding: 25px;
+            width: 345px;
+            margin-left: 0px;
+            margin-bottom: 57px;
+        }
+        a {
+            display: block;
+        }
+    }
+    .landing-seo .seo-dec {
+        background-color: #e7c4bd;
+        padding: 60px 40px;
+        width: 375px;
+        margin-top: 220px;
+        margin-left: -15px;
+        z-index: 1;
+        position: absolute;
+    }
+    .landing-seo {
+        img {
+            width: 344px;
+            z-index: 10;
+            position: inherit;
+        }
+    }
+    
+    .icon-box {
+        border-left: 1px solid #dddddd;
+    }
+    .app-header {
+        padding: 0px 0px 0px 0px;
+        .logo-box {
+            padding: 10px 0px 10px 0px;
+        }
+        img {
+            height: 34px;
+        }
+    }
+
+
+    .form-check {
+        width: 350px !important;
+        left: 0% !important;
+    }
+    .next-button {
+        width: 350px !important;
+    }
+    .text-field {
+        width: 350px !important;
+    }
+    .search-input {
+        width: 350px !important;
+    }
+    .select-product {
+        width: 350px !important;
+        margin-left: 0px !important;
+    }
+    .price-box {
+        width: 350px !important;
+        margin-left: 0px !important;
+    }
+    .middle {
+        width: 103% !important;
+        margin-left: 0px !important;
+    }
+    .fragrance-box img {
+        width: 125px !important;
+        height: 100px !important;
+    }
+    .fragrance-box {
+        height: 170px !important;
+    }
+    .step-button2 {
+        width: 350px !important;
+    }
+    .product-box {
+        margin-bottom: 20px;
+    }
+    .product-button {
+        width: 290px !important;
+    }
+    .result-button {
+        width: 342px !important;
+        float: left !important;
+    }
+    .result-header h2 {
+        font-size: 16px;
+    }
+    .result-header h3 {
+        font-size: 8px;
+    }
+
+    .carousel {
+        display: block;
+        }
+    .product-row {
+        display: none;
+    }
+    .app-header-top p {
+        text-align: center !important;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 768px) and (min-width: 585px) {
+    .client-data .form-check {
+        left: 22% !important;
+    }
+
+}
+
+
+

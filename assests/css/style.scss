@@ -1,0 +1,218 @@
+
+$textfont : 'JosefinSans';
+$defaultcolor: #222222;
+
+/* Landing page Header css */
+
+.landing-header {
+    background-image: url("../images/header.png") ;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 560px;
+    padding: 180px 0px 0px 0px;
+    p {
+        font-size: 20px;
+        color: $defaultcolor;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    h2 {
+        font-size: 52px;
+        color: $defaultcolor;
+        letter-spacing: 2px;
+        margin-top: -17px;
+        margin-bottom: -2px;
+    }
+    a {
+        padding: 22px 16px 22px;
+        background-color: #000000;
+        margin-top: 60px;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    span {
+        margin-left: 80px;
+    }
+    .try-button {
+        margin-top: 60px;
+    }
+    img {
+        margin-top: -7px;
+    }
+}
+
+/* Landing page Works Section css */
+
+.landing-works {
+    padding: 70px 0px 70px 0px;
+    h2 {
+        font-size: 20px;
+    }
+    .row {
+        background-color: #f5f5f5;
+        padding: 50px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    p {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    a {
+        padding: 15px 15px 15px;
+        background-color: #000000;
+        margin-top: 60px;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+        display: none;
+    }
+}
+
+/* Landing page Seo Section css */
+
+.landing-seo {
+    background-image: url("../images/pattern.svg") ;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 60px 0px 60px 0px;
+    background-color: #e4e1e1;
+
+    .seo-dec {
+        background-color: #e7c4bd;
+        padding: 32px 40px;
+        width: 620px;
+        margin-top: 80px;
+        z-index: 1;
+        position: absolute;
+        span {
+            font-size: 14px;
+            font-weight: 300;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+}
+
+    /* result Page css */ 
+
+    .result-header {
+        background-color: #f5f5f5;
+        padding: 60px 0px;
+        i {
+            color: #727272;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .product-box {
+        background-color: #fff;
+        padding: 10px;
+        text-align: left !important;
+        img {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 14px;
+            font-weight: 300;
+        }
+        s {
+            font-size: 12px;
+            font-weight: 300;
+        }
+        b {
+            font-size: 16px;
+        }
+        i {
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #75939e;
+        }
+        h6 {
+            font-size: 12px;
+        }
+        span {
+            background-color: #e4d092;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 5px;
+        }
+        h5 {
+            font-size: 10px;
+            font-weight: 300;
+            color: #fff;
+            background-color: #000;
+            padding: 5px;
+            width: 28%;
+            z-index: 3;
+            position: relative;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .match-img {
+            margin-top: -38px;
+        }
+
+    }
+    .product-button {
+        border: 2px solid #75939e;
+        font-size: 14px;
+        font-weight: 300;
+        color: #75939e !important;
+        height: 48px;
+        padding-top: 10px;
+        width: 235px;
+        margin-top: 10px;
+        text-align: center !important;
+        text-decoration: none !important;
+    }
+
+    .best-match {
+        background-color: #e4d092;
+        i{
+            color: #fff;
+        }
+        span {
+            background-color: #fff;
+        }
+        .product-button {
+            border: 2px solid #000;
+            color: #000 !important;
+        }
+    }
+    .carousel {
+        display: none;
+        }
+        .progress {
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 30px;
+            height: 10px !important;
+        }
+        .progress-bar {
+            background-color: #75939e;
+        }
+
+    @import '_steps.scss';
+    @import '_responsive.scss';
+
